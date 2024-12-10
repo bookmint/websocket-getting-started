@@ -32,3 +32,6 @@ This repository contains a basic websocket application, designed as a foundation
    ```bash
    genezio deploy
 
+### How to test
+
+You can use Postman to test the websocket connection. Read more (here)[https://blog.postman.com/postman-supports-websocket-apis/].
