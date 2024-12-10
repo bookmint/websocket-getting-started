@@ -34,4 +34,4 @@ This repository contains a basic websocket application, designed as a foundation
 
 ### How to test
 
-You can use Postman to test the websocket connection. Read more [here](https://blog.postman.com/postman-supports-websocket-apis/).
+You can use Postman to test the websocket connection. Select Websocket Protocol when creating a new request. Also, don't add "http://" or "https://" in front of the URL. Read more [here](https://blog.postman.com/postman-supports-websocket-apis/).
