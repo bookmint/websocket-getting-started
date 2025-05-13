@@ -1,17 +1,17 @@
-name: websockets-getting-started
-region: eu-central-1
-yamlVersion: 2
 backend:
-    path: .
+    functions:
+        - entry: server.mjs
+          name: express
+          path: .
+          type: httpServer
     language:
         name: js
-    functions:
-        - name: express
-          path: .
-          entry: server.mjs 
-          type: httpServer
+    path: .
     scripts:
         deploy:
             - npm install
         local:
             - npm install
+name: websockets-getting-started
+region: eu-central-1
+yamlVersion: 2
